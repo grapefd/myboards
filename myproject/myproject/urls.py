@@ -17,6 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from accounts import views as accounts_views
 from boards import views
+from django.contrib.auth import views as auth_views
 
 
 urlpatterns = [
